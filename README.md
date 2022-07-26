@@ -13,3 +13,8 @@ So, before creating this Python script to extract Twitter data, we need to follo
 •  Then, you will have to setup your search query parameter inorder to specify what exactly are you looking for. In this scenario, it will be mostly related to <b>    illicit drugs </b>. </br>
    <b> Optional params: start_time,end_time,since_id,until_id,max_results,next_token, </br>
    expansions,tweet.fields,media.fields,poll.fields,place.fields,user.fields </br> </b>
+•  bearer_oauth(r): </br>
+    Method required by bearer token authentication. </br>
+    So here, in this method we have to pass the value of our Bearer Tokens that we got from our Twitter developer account </br>
+    inorder for the Twitter to successfully authenticate our request to get Twiiter Data. </br>
+•  
