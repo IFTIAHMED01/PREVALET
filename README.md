@@ -8,6 +8,8 @@ So, before creating this Python script to extract Twitter data, we need to follo
 •  Firstly, you need to import requests (import os and import json). </br>
 •  Secondly, To set your environment variables in your terminal run the following line: </br>
    <b> export 'BEARER_TOKEN'='<your_bearer_token>' </b> </br>
-•  Then you have to a search_url which will be constant all the time.
+•  Then you have to a search_url which will be constant all the time. </br>
    <b> search_url = "https://api.twitter.com/2/tweets/search/recent" </b> </br>
-•  Then, you will have to setup your search query parameter inorder to specify what exactly are you looking for. In this scenario, it will be mostly related to <b> illicit drugs </b>. </br>
+•  Then, you will have to setup your search query parameter inorder to specify what exactly are you looking for. In this scenario, it will be mostly related to <b>    illicit drugs </b>. </br>
+   <b> Optional params: start_time,end_time,since_id,until_id,max_results,next_token, </br>
+   expansions,tweet.fields,media.fields,poll.fields,place.fields,user.fields </br> </b>
