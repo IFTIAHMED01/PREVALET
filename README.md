@@ -5,4 +5,6 @@ So, before creating this Python script to extract Twitter data, we need to follo
 2.) <b> Then, the next step is to get the Twitter Access/Bearer Token from our Twitter Developer Account </b>. So, on clicking the confirmation email from the above application step, you’ll be navigated to the Twitter Developer Platform. Give your App a name and click Get keys. You’ll be shown your <b> API key </b> and <b> API Access Token </b>. Copy and save them securely. You’ll be using them to access the Twitter API. For our purpose for this script, we only need the <b> API Access Token </b> for successful connection to our Twitter API Version 2.0.
 3.) Now, since we have the <b> API Bearer/Access Token </b>, we can use that token and the python script I provided here to successfully extract the Twitter Data using Twitter API 2.0. <b> Note that, python script I provided here only works for Twitter API Version 2.0, not for any other versions </b>. </br></br>
 # Explanation of my Python Script</br>
-•  
+•  Firstly, you need to import requests (import os and import json).
+•  Secondly, To set your environment variables in your terminal run the following line:
+   </br> export 'BEARER_TOKEN'='<your_bearer_token>'
