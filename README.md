@@ -6,5 +6,8 @@ So, before creating this Python script to extract Twitter data, we need to follo
 3.) Now, since we have the <b> API Bearer/Access Token </b>, we can use that token and the python script I provided here to successfully extract the Twitter Data using Twitter API 2.0. <b> Note that, python script I provided here only works for Twitter API Version 2.0, not for any other versions </b>. </br></br>
 # Explanation of my Python Script</br>
 •  Firstly, you need to import requests (import os and import json). </br>
-•  Secondly, To set your environment variables in your terminal run the following line:
-   </br> export 'BEARER_TOKEN'='<your_bearer_token>'
+•  Secondly, To set your environment variables in your terminal run the following line: </br>
+   <b> export 'BEARER_TOKEN'='<your_bearer_token>' </b> </br>
+•  Then you have to a search_url which will be constant all the time.
+   <b> search_url = "https://api.twitter.com/2/tweets/search/recent" </b> </br>
+•  Then, you will have to setup your search query parameter inorder to specify what exactly are you looking for. In this scenario, it will be mostly related to <b> illicit drugs </b>. </br>
